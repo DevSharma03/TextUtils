@@ -88,7 +88,7 @@ Distributed under the [MIT License](LICENSE).
 
 ## 👤 Author
 
-Made with ❤️ by [DevSharma03](https://github.com/DevSharma03)
+Made by [DevSharma03](https://github.com/DevSharma03)
 
 ## 🙏 Acknowledgments
 
