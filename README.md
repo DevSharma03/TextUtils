@@ -2,7 +2,7 @@
 
 TextUtils is a lightweight, intuitive toolkit designed to streamline your text manipulation and analysis tasks. Whether you're a developer, writer, or student, TextUtils helps you transform, clean, and gain insights from your text with minimal effort.
 
-## ✨ Features
+## ✨ Features 
 
 - **Case Conversion:** Instantly convert text to uppercase, lowercase, or title case.
 - **Text Cleaning:** Remove extra spaces, special characters, or unwanted symbols.
