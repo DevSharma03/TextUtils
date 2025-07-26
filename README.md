@@ -1,4 +1,4 @@
-# TextUtils
+# TextUtils 
 
 TextUtils is a lightweight, intuitive toolkit designed to streamline your text manipulation and analysis tasks. Whether you're a developer, writer, or student, TextUtils helps you transform, clean, and gain insights from your text with minimal effort.
 
