@@ -1,0 +1,27 @@
+/* Navbar.css */
+.navbar {
+  padding: 0.8rem 1.5rem;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.navbar-brand.textflow-brand {
+  font-weight: 700;
+  font-size: 1.5rem;
+  letter-spacing: 1px;
+  color: #0d6efd !important;
+}
+
+.navbar-nav .nav-link {
+  font-size: 1rem;
+  font-weight: 500;
+  transition: color 0.2s ease;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #0d6efd !important;
+}
+
+.form-check-label {
+  margin-left: 0.5rem;
+  font-weight: 500;
+}

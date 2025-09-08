@@ -1,0 +1,11 @@
+/* Alert.css */
+.textflow-alert {
+  position: relative;
+  margin-top: 0.8rem;
+}
+
+.alert {
+  border-radius: 10px;
+  font-weight: 500;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}

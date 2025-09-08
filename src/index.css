@@ -1,0 +1,92 @@
+/* Global styles for TextFlow */
+:root {
+  --bg: #ffffff;
+  --text: #1f2937;
+  --muted: #6b7280;
+  --primary: #2563eb;
+  --card: #f8fafc;
+}
+
+* {
+  box-sizing: border-box;
+}
+html,
+body,
+#root {
+  height: 100%;
+}
+body {
+  margin: 0;
+  font-family: Inter, system-ui, -apple-system, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial;
+  background: var(--bg);
+  color: var(--text);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Navbar tweaks */
+.navbar-brand {
+  font-weight: 700;
+  letter-spacing: 0.2px;
+}
+
+.navbar-brand.textflow-brand {
+  color: var(--text);
+}
+.tf-dark .navbar-brand.textflow-brand {
+  color: var(--text);
+}
+
+/* Card-like container for main content */
+.container-card {
+  background: var(--card);
+  border-radius: 10px;
+  padding: 1.5rem;
+  box-shadow: 0 6px 18px rgba(31, 41, 55, 0.06);
+}
+
+/* Utility helpers */
+.textflow-hero {
+  max-width: 900px;
+  margin: 1.5rem auto;
+}
+
+/* Form textarea */
+.textflow-textarea {
+  min-height: 180px;
+  resize: vertical;
+}
+
+/* Dark mode overrides (used by toggling body class 'tf-dark') */
+body.tf-dark {
+  --bg: #0b1220;
+  --text: #e6eef8;
+  --muted: #9aa6b2;
+  --primary: #60a5fa;
+  --card: #081021;
+}
+
+body.tf-dark .navbar {
+  background: #071028;
+}
+
+/* Responsive small adjustments */
+@media (max-width: 576px) {
+  .container-card {
+    padding: 1rem;
+  }
+}
+
+/* Highlighted search result */
+.textflow-highlight {
+  background: #fffb8f;
+  padding: 0 2px;
+  border-radius: 3px;
+}
+
+/* Alert customizations */
+.textflow-alert {
+  margin: 0.5rem auto;
+  max-width: 900px;
+}
